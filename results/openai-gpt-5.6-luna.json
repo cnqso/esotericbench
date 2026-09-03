@@ -1,0 +1,723 @@
+{
+  "schema_version": "esotericbench-public-scorecard-v2",
+  "run_group_id": "20260903T174654281835Z",
+  "generated_at": "2026-09-03T18:33:06.478640+00:00",
+  "question_content_withheld": true,
+  "excluded_fields": [
+    "prompts",
+    "answers",
+    "outputs",
+    "traces"
+  ],
+  "expected_repetitions": 5,
+  "selected_maximum_score": 1000,
+  "models": [
+    {
+      "model": "openai/gpt-5.6-luna",
+      "label": "GPT-5.6 Luna",
+      "settings": {
+        "reasoning_effort": "section-dependent",
+        "reasoning_effort_by_public_section": {
+          "default": "low",
+          "1": "medium"
+        },
+        "reasoning_max_tokens": "provider-default",
+        "max_tokens": "provider-default",
+        "max_completion_tokens": 65536,
+        "output_ceiling_policy": {
+          "configured_tokens": 65536,
+          "applied": true,
+          "catalog_accepts_reasoning": true,
+          "request_parameter": "max_completion_tokens",
+          "effective_tokens": 65536,
+          "provider_max_completion_tokens": 128000
+        }
+      },
+      "expected_repetitions": 5,
+      "completed_repetitions": 5,
+      "average_score": 210.0,
+      "best_score": 224,
+      "maximum_score": 1000,
+      "player_usage": {
+        "input": 11060,
+        "cached": 0,
+        "output": 72129,
+        "reasoning": 69973,
+        "total": 83189,
+        "cost": 0.08876679999999999
+      },
+      "scoring_cost": 0.038208,
+      "total_cost": 0.1269748,
+      "elapsed_ms": 1254099.2150000005,
+      "integrity_flags": [],
+      "runs": [
+        {
+          "repetition": 1,
+          "status": "completed",
+          "score": 223,
+          "partial_score": 223,
+          "maximum_score": 1000,
+          "completed_questions": 18,
+          "player_usage": {
+            "input": 2212,
+            "cached": 0,
+            "output": 12108,
+            "reasoning": 11716,
+            "total": 14320,
+            "cost": 0.014972000000000001
+          },
+          "scoring_cost": 0.0069792499999999985,
+          "total_cost": 0.02195125,
+          "elapsed_ms": 218215.737,
+          "flags": []
+        },
+        {
+          "repetition": 2,
+          "status": "completed",
+          "score": 224,
+          "partial_score": 224,
+          "maximum_score": 1000,
+          "completed_questions": 18,
+          "player_usage": {
+            "input": 2212,
+            "cached": 0,
+            "output": 14847,
+            "reasoning": 14415,
+            "total": 17059,
+            "cost": 0.0182588
+          },
+          "scoring_cost": 0.0079766,
+          "total_cost": 0.0262354,
+          "elapsed_ms": 261598.22199999998,
+          "flags": []
+        },
+        {
+          "repetition": 3,
+          "status": "completed",
+          "score": 206,
+          "partial_score": 206,
+          "maximum_score": 1000,
+          "completed_questions": 18,
+          "player_usage": {
+            "input": 2212,
+            "cached": 0,
+            "output": 14690,
+            "reasoning": 14241,
+            "total": 16902,
+            "cost": 0.018070399999999997
+          },
+          "scoring_cost": 0.008271650000000002,
+          "total_cost": 0.02634205,
+          "elapsed_ms": 259699.23699999994,
+          "flags": []
+        },
+        {
+          "repetition": 4,
+          "status": "completed",
+          "score": 223,
+          "partial_score": 223,
+          "maximum_score": 1000,
+          "completed_questions": 18,
+          "player_usage": {
+            "input": 2212,
+            "cached": 0,
+            "output": 13731,
+            "reasoning": 13290,
+            "total": 15943,
+            "cost": 0.016919599999999996
+          },
+          "scoring_cost": 0.0074126999999999995,
+          "total_cost": 0.024332299999999994,
+          "elapsed_ms": 246506.29399999997,
+          "flags": []
+        },
+        {
+          "repetition": 5,
+          "status": "completed",
+          "score": 174,
+          "partial_score": 174,
+          "maximum_score": 1000,
+          "completed_questions": 18,
+          "player_usage": {
+            "input": 2212,
+            "cached": 0,
+            "output": 16753,
+            "reasoning": 16311,
+            "total": 18965,
+            "cost": 0.020546000000000002
+          },
+          "scoring_cost": 0.0075677999999999995,
+          "total_cost": 0.0281138,
+          "elapsed_ms": 268079.725,
+          "flags": []
+        }
+      ],
+      "sections": [
+        {
+          "section_id": "1",
+          "section": "Culture and Criticism 1",
+          "average_score": 150.0,
+          "best_score": 164,
+          "maximum_score": 750,
+          "run_scores": [
+            163,
+            164,
+            136,
+            163,
+            124
+          ],
+          "player_usage": {
+            "input": 3125,
+            "cached": 0,
+            "output": 50404,
+            "reasoning": 49368,
+            "total": 53529,
+            "cost": 0.061109800000000006
+          },
+          "scoring_cost": 0.017994700000000002,
+          "questions": [
+            {
+              "question_id": "1A",
+              "average_score": 67.0,
+              "best_score": 81,
+              "maximum_score": 130,
+              "run_scores": [
+                61,
+                71,
+                81,
+                71,
+                51
+              ],
+              "player_usage": {
+                "input": 625,
+                "cached": 0,
+                "output": 5704,
+                "reasoning": 5522,
+                "total": 6329,
+                "cost": 0.0069698
+              },
+              "scoring_cost": 0.003249,
+              "flags": []
+            },
+            {
+              "question_id": "1B",
+              "average_score": 12.0,
+              "best_score": 40,
+              "maximum_score": 150,
+              "run_scores": [
+                40,
+                10,
+                0,
+                10,
+                0
+              ],
+              "player_usage": {
+                "input": 625,
+                "cached": 0,
+                "output": 8870,
+                "reasoning": 8642,
+                "total": 9495,
+                "cost": 0.010769
+              },
+              "scoring_cost": 0.0041696,
+              "flags": []
+            },
+            {
+              "question_id": "1C",
+              "average_score": 68.4,
+              "best_score": 82,
+              "maximum_score": 170,
+              "run_scores": [
+                62,
+                73,
+                52,
+                82,
+                73
+              ],
+              "player_usage": {
+                "input": 625,
+                "cached": 0,
+                "output": 10346,
+                "reasoning": 10135,
+                "total": 10971,
+                "cost": 0.0125402
+              },
+              "scoring_cost": 0.0041388,
+              "flags": []
+            },
+            {
+              "question_id": "1D",
+              "average_score": 0.0,
+              "best_score": 0,
+              "maximum_score": 140,
+              "run_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "player_usage": {
+                "input": 625,
+                "cached": 0,
+                "output": 10544,
+                "reasoning": 10350,
+                "total": 11169,
+                "cost": 0.012777799999999999
+              },
+              "scoring_cost": 0.0025746000000000002,
+              "flags": []
+            },
+            {
+              "question_id": "1E",
+              "average_score": 2.6,
+              "best_score": 10,
+              "maximum_score": 160,
+              "run_scores": [
+                0,
+                10,
+                3,
+                0,
+                0
+              ],
+              "player_usage": {
+                "input": 625,
+                "cached": 0,
+                "output": 14940,
+                "reasoning": 14719,
+                "total": 15565,
+                "cost": 0.018053
+              },
+              "scoring_cost": 0.0038627,
+              "flags": []
+            }
+          ]
+        },
+        {
+          "section_id": "2",
+          "section": "Culture and Criticism 2",
+          "average_score": 30.0,
+          "best_score": 30,
+          "maximum_score": 160,
+          "run_scores": [
+            30,
+            30,
+            30,
+            30,
+            30
+          ],
+          "player_usage": {
+            "input": 1850,
+            "cached": 0,
+            "output": 10601,
+            "reasoning": 10129,
+            "total": 12451,
+            "cost": 0.0130912
+          },
+          "scoring_cost": 0.008085899999999998,
+          "questions": [
+            {
+              "question_id": "2A",
+              "average_score": 30.0,
+              "best_score": 30,
+              "maximum_score": 130,
+              "run_scores": [
+                30,
+                30,
+                30,
+                30,
+                30
+              ],
+              "player_usage": {
+                "input": 480,
+                "cached": 0,
+                "output": 3885,
+                "reasoning": 3616,
+                "total": 4365,
+                "cost": 0.004758
+              },
+              "scoring_cost": 0.0034729,
+              "flags": []
+            },
+            {
+              "question_id": "2B",
+              "average_score": 0.0,
+              "best_score": 0,
+              "maximum_score": 10,
+              "run_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "player_usage": {
+                "input": 480,
+                "cached": 0,
+                "output": 2674,
+                "reasoning": 2580,
+                "total": 3154,
+                "cost": 0.0033048000000000005
+              },
+              "scoring_cost": 0.0017042000000000001,
+              "flags": []
+            },
+            {
+              "question_id": "2C",
+              "average_score": 0.0,
+              "best_score": 0,
+              "maximum_score": 10,
+              "run_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "player_usage": {
+                "input": 450,
+                "cached": 0,
+                "output": 1441,
+                "reasoning": 1394,
+                "total": 1891,
+                "cost": 0.0018192
+              },
+              "scoring_cost": 0.0014678,
+              "flags": []
+            },
+            {
+              "question_id": "2D",
+              "average_score": 0.0,
+              "best_score": 0,
+              "maximum_score": 10,
+              "run_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "player_usage": {
+                "input": 440,
+                "cached": 0,
+                "output": 2601,
+                "reasoning": 2539,
+                "total": 3041,
+                "cost": 0.0032092
+              },
+              "scoring_cost": 0.001441,
+              "flags": []
+            }
+          ]
+        },
+        {
+          "section_id": "3",
+          "section": "Culture and Criticism 3",
+          "average_score": 8.0,
+          "best_score": 10,
+          "maximum_score": 20,
+          "run_scores": [
+            10,
+            10,
+            10,
+            10,
+            0
+          ],
+          "player_usage": {
+            "input": 1005,
+            "cached": 0,
+            "output": 2652,
+            "reasoning": 2580,
+            "total": 3657,
+            "cost": 0.0033834000000000004
+          },
+          "scoring_cost": 0.002499,
+          "questions": [
+            {
+              "question_id": "3A",
+              "average_score": 8.0,
+              "best_score": 10,
+              "maximum_score": 10,
+              "run_scores": [
+                10,
+                10,
+                10,
+                10,
+                0
+              ],
+              "player_usage": {
+                "input": 480,
+                "cached": 0,
+                "output": 30,
+                "reasoning": 0,
+                "total": 510,
+                "cost": 0.000132
+              },
+              "scoring_cost": 0.0010904,
+              "flags": []
+            },
+            {
+              "question_id": "3B",
+              "average_score": 0.0,
+              "best_score": 0,
+              "maximum_score": 10,
+              "run_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "player_usage": {
+                "input": 525,
+                "cached": 0,
+                "output": 2622,
+                "reasoning": 2580,
+                "total": 3147,
+                "cost": 0.0032513999999999998
+              },
+              "scoring_cost": 0.0014086,
+              "flags": []
+            }
+          ]
+        },
+        {
+          "section_id": "4",
+          "section": "Geography",
+          "average_score": 0.0,
+          "best_score": 0,
+          "maximum_score": 20,
+          "run_scores": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "player_usage": {
+            "input": 895,
+            "cached": 0,
+            "output": 2370,
+            "reasoning": 2290,
+            "total": 3265,
+            "cost": 0.003023
+          },
+          "scoring_cost": 0.0027726000000000005,
+          "questions": [
+            {
+              "question_id": "4A",
+              "average_score": 0.0,
+              "best_score": 0,
+              "maximum_score": 10,
+              "run_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "player_usage": {
+                "input": 450,
+                "cached": 0,
+                "output": 1908,
+                "reasoning": 1868,
+                "total": 2358,
+                "cost": 0.0023796000000000004
+              },
+              "scoring_cost": 0.0013675999999999998,
+              "flags": []
+            },
+            {
+              "question_id": "4B",
+              "average_score": 0.0,
+              "best_score": 0,
+              "maximum_score": 10,
+              "run_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "player_usage": {
+                "input": 445,
+                "cached": 0,
+                "output": 462,
+                "reasoning": 422,
+                "total": 907,
+                "cost": 0.0006434
+              },
+              "scoring_cost": 0.001405,
+              "flags": []
+            }
+          ]
+        },
+        {
+          "section_id": "5",
+          "section": "Philosophy",
+          "average_score": 22.0,
+          "best_score": 30,
+          "maximum_score": 40,
+          "run_scores": [
+            20,
+            20,
+            30,
+            20,
+            20
+          ],
+          "player_usage": {
+            "input": 3685,
+            "cached": 0,
+            "output": 5773,
+            "reasoning": 5380,
+            "total": 9458,
+            "cost": 0.0076646000000000014
+          },
+          "scoring_cost": 0.0057126,
+          "questions": [
+            {
+              "question_id": "5A",
+              "average_score": 0.0,
+              "best_score": 0,
+              "maximum_score": 10,
+              "run_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "player_usage": {
+                "input": 1410,
+                "cached": 0,
+                "output": 3670,
+                "reasoning": 3616,
+                "total": 5080,
+                "cost": 0.004686
+              },
+              "scoring_cost": 0.0014876,
+              "flags": []
+            },
+            {
+              "question_id": "5B",
+              "average_score": 10.0,
+              "best_score": 10,
+              "maximum_score": 10,
+              "run_scores": [
+                10,
+                10,
+                10,
+                10,
+                10
+              ],
+              "player_usage": {
+                "input": 1390,
+                "cached": 0,
+                "output": 615,
+                "reasoning": 560,
+                "total": 2005,
+                "cost": 0.001016
+              },
+              "scoring_cost": 0.0011478,
+              "flags": []
+            },
+            {
+              "question_id": "5C",
+              "average_score": 10.0,
+              "best_score": 10,
+              "maximum_score": 10,
+              "run_scores": [
+                10,
+                10,
+                10,
+                10,
+                10
+              ],
+              "player_usage": {
+                "input": 435,
+                "cached": 0,
+                "output": 519,
+                "reasoning": 479,
+                "total": 954,
+                "cost": 0.0007098
+              },
+              "scoring_cost": 0.0010702,
+              "flags": []
+            },
+            {
+              "question_id": "5D",
+              "average_score": 2.0,
+              "best_score": 10,
+              "maximum_score": 10,
+              "run_scores": [
+                0,
+                0,
+                10,
+                0,
+                0
+              ],
+              "player_usage": {
+                "input": 450,
+                "cached": 0,
+                "output": 969,
+                "reasoning": 725,
+                "total": 1419,
+                "cost": 0.0012528
+              },
+              "scoring_cost": 0.002007,
+              "flags": []
+            }
+          ]
+        },
+        {
+          "section_id": "6",
+          "section": "Very difficult question",
+          "average_score": 0.0,
+          "best_score": 0,
+          "maximum_score": 10,
+          "run_scores": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "player_usage": {
+            "input": 500,
+            "cached": 0,
+            "output": 329,
+            "reasoning": 226,
+            "total": 829,
+            "cost": 0.0004948
+          },
+          "scoring_cost": 0.0011432,
+          "questions": [
+            {
+              "question_id": "6",
+              "average_score": 0.0,
+              "best_score": 0,
+              "maximum_score": 10,
+              "run_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "player_usage": {
+                "input": 500,
+                "cached": 0,
+                "output": 329,
+                "reasoning": 226,
+                "total": 829,
+                "cost": 0.0004948
+              },
+              "scoring_cost": 0.0011432,
+              "flags": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
