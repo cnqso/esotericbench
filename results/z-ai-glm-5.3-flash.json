@@ -1,7 +1,7 @@
 {
   "schema_version": "esotericbench-public-scorecard-v2",
   "run_group_id": "20260903T181310393695Z",
-  "generated_at": "2026-09-03T18:48:40.486089+00:00",
+  "generated_at": "2026-09-04T16:07:27.646752+00:00",
   "question_content_withheld": true,
   "excluded_fields": [
     "prompts",
@@ -48,7 +48,7 @@
       },
       "scoring_cost": 0.04147660000000001,
       "total_cost": 0.051541510000000006,
-      "elapsed_ms": 1579038.3860000006,
+      "elapsed_ms": 1579446.999,
       "integrity_flags": [],
       "runs": [
         {
@@ -68,7 +68,7 @@
           },
           "scoring_cost": 0.0082027,
           "total_cost": 0.009880420000000001,
-          "elapsed_ms": 332090.67799999996,
+          "elapsed_ms": 332150.481,
           "flags": []
         },
         {
@@ -88,7 +88,7 @@
           },
           "scoring_cost": 0.0081056,
           "total_cost": 0.012218904999999999,
-          "elapsed_ms": 559059.4959999999,
+          "elapsed_ms": 559123.57,
           "flags": []
         },
         {
@@ -108,7 +108,7 @@
           },
           "scoring_cost": 0.00824855,
           "total_cost": 0.009401275,
-          "elapsed_ms": 193204.55999999994,
+          "elapsed_ms": 193285.47499999998,
           "flags": []
         },
         {
@@ -128,7 +128,7 @@
           },
           "scoring_cost": 0.008257950000000002,
           "total_cost": 0.009351925,
-          "elapsed_ms": 181683.473,
+          "elapsed_ms": 181771.94,
           "flags": []
         },
         {
@@ -148,7 +148,7 @@
           },
           "scoring_cost": 0.008661799999999999,
           "total_cost": 0.010688984999999998,
-          "elapsed_ms": 313000.17900000006,
+          "elapsed_ms": 313098.52999999997,
           "flags": []
         }
       ],

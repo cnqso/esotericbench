@@ -1,7 +1,7 @@
 {
   "schema_version": "esotericbench-public-scorecard-v2",
   "run_group_id": "20260904T150729470906Z",
-  "generated_at": "2026-09-04T15:27:57.107714+00:00",
+  "generated_at": "2026-09-04T16:07:27.911741+00:00",
   "question_content_withheld": true,
   "excluded_fields": [
     "prompts",
@@ -35,8 +35,8 @@
       },
       "expected_repetitions": 5,
       "completed_repetitions": 5,
-      "average_score": 391.6,
-      "best_score": 433,
+      "average_score": 389.6,
+      "best_score": 423,
       "maximum_score": 1000,
       "player_usage": {
         "input": 11055,
@@ -44,18 +44,18 @@
         "output": 59629,
         "reasoning": 57642,
         "total": 70684,
-        "cost": 0.7376579999999998
+        "cost": 0.737658
       },
       "scoring_cost": 0.0005396,
-      "total_cost": 0.7381975999999998,
-      "elapsed_ms": 1227007.409,
+      "total_cost": 0.7381976,
+      "elapsed_ms": 1227433.53,
       "integrity_flags": [],
       "runs": [
         {
           "repetition": 1,
           "status": "completed",
-          "score": 433,
-          "partial_score": 433,
+          "score": 423,
+          "partial_score": 423,
           "maximum_score": 1000,
           "completed_questions": 18,
           "player_usage": {
@@ -68,7 +68,7 @@
           },
           "scoring_cost": 0.0002088,
           "total_cost": 0.15177480000000002,
-          "elapsed_ms": 257138.94200000004,
+          "elapsed_ms": 257184.91499999998,
           "flags": []
         },
         {
@@ -88,7 +88,7 @@
           },
           "scoring_cost": 0.0001618,
           "total_cost": 0.14024379999999995,
-          "elapsed_ms": 242967.91400000005,
+          "elapsed_ms": 243034.065,
           "flags": []
         },
         {
@@ -108,7 +108,7 @@
           },
           "scoring_cost": 0.0,
           "total_cost": 0.16191000000000003,
-          "elapsed_ms": 261790.12500000003,
+          "elapsed_ms": 261869.83099999998,
           "flags": []
         },
         {
@@ -128,7 +128,7 @@
           },
           "scoring_cost": 0.0,
           "total_cost": 0.13138199999999997,
-          "elapsed_ms": 218059.24100000004,
+          "elapsed_ms": 218155.658,
           "flags": []
         },
         {
@@ -148,7 +148,7 @@
           },
           "scoring_cost": 0.000169,
           "total_cost": 0.15288699999999997,
-          "elapsed_ms": 247051.18699999992,
+          "elapsed_ms": 247165.854,
           "flags": []
         }
       ],
@@ -555,11 +555,11 @@
         {
           "section_id": "5",
           "section": "Philosophy",
-          "average_score": 24.0,
+          "average_score": 22.0,
           "best_score": 30,
           "maximum_score": 40,
           "run_scores": [
-            30,
+            20,
             30,
             20,
             20,
@@ -646,11 +646,11 @@
             },
             {
               "question_id": "5D",
-              "average_score": 6.0,
+              "average_score": 4.0,
               "best_score": 10,
               "maximum_score": 10,
               "run_scores": [
-                10,
+                0,
                 10,
                 0,
                 10,
@@ -721,4 +721,3 @@
     }
   ]
 }
-
