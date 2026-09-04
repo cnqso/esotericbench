@@ -1,6 +1,6 @@
 # EsotericBench
 
-EsotericBench is a presence-of-information evaluation using a secret set of questions across various topics. It differs from other fact-finding benchmarks such as SimpleQA and TriviaQA in that it is not especially interested in measuring hallucination rates. Instead, it tries to explore the fuzzy boundary of an LLM's knowledge to discover which information is present, even at "low resolution," and which information appears to have been compressed away entirely.
+EsotericBench is a presence-of-information evaluation using a secret set of questions across various topics. It differs from other question-answering benchmarks such as SimpleQA and TriviaQA in that it is not especially interested in measuring hallucination rates. Instead, it tries to explore the fuzzy boundary of an LLM's knowledge to discover which information is present, even at "low resolution," and which information appears to have been compressed away entirely.
 
 ## Hypothesis
 
