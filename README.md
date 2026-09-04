@@ -1,7 +1,4 @@
-# EsotericBench — 2026-09-04
-
-**Last updated:** 2026-09-04  
-**Benchmark evidence verified:** 2026-09-03
+# EsotericBench
 
 EsotericBench is a benchmark that asks questions about niche internet knowledge. It is not primarily intended to measure hallucination rates. Instead, it explores the fuzzy boundary of an LLM's knowledge to discover which information is present, even at "low resolution," and which information may have been compressed away entirely.
 
