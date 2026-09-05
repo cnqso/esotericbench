@@ -4,7 +4,8 @@
 
 **Average:** 608/1000 · **Segment best:** 670/1000 · **Segment worst:** 561/1000 · **Runs:** 5/5 · **Time:** 2m 32s
 
-**Player:** 36,868 (23,804 reasoning) tokens · $1.40720000 · **Scoring:** $0.00297440 · **Total:** $1.41017440
+**Player:** 36,868 (23,804 reasoning) tokens · $1.40720000 · **Scoring:** $0.00297440 · **Total:** $1.61730940
+**Additional attempts:** 10,631 (7,005 reasoning) tokens · $0.20713500
 
 ## Runs
 

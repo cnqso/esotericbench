@@ -1,7 +1,7 @@
 {
-  "schema_version": "esotericbench-public-scorecard-v3",
+  "schema_version": "esotericbench-public-scorecard-v4",
   "run_group_id": "20260905T124512679178Z",
-  "generated_at": "2026-09-05T13:58:01.004986+00:00",
+  "generated_at": "2026-09-05T14:21:20.353221+00:00",
   "extrema_method": "sum-of-question-extrema",
   "question_content_withheld": true,
   "excluded_fields": [
@@ -51,6 +51,25 @@
         "cost": 1.4123450139999993
       },
       "scoring_cost": 0.0,
+      "additional_attempts": {
+        "player_usage": {
+          "input": 0,
+          "cached": 0,
+          "output": 0,
+          "reasoning": 0,
+          "total": 0,
+          "cost": 0
+        },
+        "scoring_usage": {
+          "input": 0,
+          "cached": 0,
+          "output": 0,
+          "reasoning": 0,
+          "total": 0,
+          "cost": 0
+        },
+        "total_cost": 0.0
+      },
       "total_cost": 1.4123450139999993,
       "elapsed_ms": 4366820.321,
       "integrity_flags": [],
