@@ -2,6 +2,10 @@
 
 EsotericBench is a presence-of-information evaluation using a secret set of questions across various topics. It differs from other question-answering benchmarks such as SimpleQA and TriviaQA in that it is not especially interested in measuring hallucination rates. Instead, it tries to explore the fuzzy boundary of an LLM's knowledge to discover which information is present, even at "low resolution," and which information appears to have been compressed away entirely.
 
+## Records
+
+Per-question records are based on the highest average score across five runs, not the best individual answer. Ties share the record.
+
 ## Hypothesis
 
 This benchmark is made to test a hypothesis around LLM knowledge: that as agentic capabilities progress, the fuzzy boundary of knowledge will *not* grow significantly. We may even expect some knowledge to be compressed away entirely. This should be especially true with faster models, and even more so with distilled models. This benchmark hopes to find some supporting evidence that knowledge per se and agentic capability can vary independently.
