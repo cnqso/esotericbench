@@ -1,7 +1,8 @@
 {
-  "schema_version": "esotericbench-public-scorecard-v2",
+  "schema_version": "esotericbench-public-scorecard-v3",
   "run_group_id": "20260904T183859195279Z",
-  "generated_at": "2026-09-04T18:42:36.938088+00:00",
+  "generated_at": "2026-09-05T13:14:37.896057+00:00",
+  "extrema_method": "sum-of-question-extrema",
   "question_content_withheld": true,
   "excluded_fields": [
     "prompts",
@@ -38,7 +39,8 @@
       "expected_repetitions": 5,
       "completed_repetitions": 5,
       "average_score": 26.0,
-      "best_score": 30,
+      "best_score": 40,
+      "worst_score": 20,
       "maximum_score": 990,
       "player_usage": {
         "input": 15755,
@@ -46,10 +48,10 @@
         "output": 6016,
         "reasoning": 53,
         "total": 21771,
-        "cost": 0.09166999999999999
+        "cost": 0.09166999999999997
       },
       "scoring_cost": 0.0,
-      "total_cost": 0.09166999999999999,
+      "total_cost": 0.09166999999999997,
       "elapsed_ms": 217719.998,
       "integrity_flags": [],
       "runs": [
@@ -160,6 +162,7 @@
           "section": "Culture and Criticism 1",
           "average_score": 0.0,
           "best_score": 0,
+          "worst_score": 0,
           "maximum_score": 750,
           "run_scores": [
             0,
@@ -182,6 +185,7 @@
               "question_id": "1A",
               "average_score": 0.0,
               "best_score": 0,
+              "worst_score": 0,
               "maximum_score": 130,
               "run_scores": [
                 0,
@@ -205,6 +209,7 @@
               "question_id": "1B",
               "average_score": 0.0,
               "best_score": 0,
+              "worst_score": 0,
               "maximum_score": 150,
               "run_scores": [
                 0,
@@ -228,6 +233,7 @@
               "question_id": "1C",
               "average_score": 0.0,
               "best_score": 0,
+              "worst_score": 0,
               "maximum_score": 170,
               "run_scores": [
                 0,
@@ -251,6 +257,7 @@
               "question_id": "1D",
               "average_score": 0.0,
               "best_score": 0,
+              "worst_score": 0,
               "maximum_score": 140,
               "run_scores": [
                 0,
@@ -274,6 +281,7 @@
               "question_id": "1E",
               "average_score": 0.0,
               "best_score": 0,
+              "worst_score": 0,
               "maximum_score": 160,
               "run_scores": [
                 0,
@@ -300,6 +308,7 @@
           "section": "Culture and Criticism 2",
           "average_score": 2.0,
           "best_score": 10,
+          "worst_score": 0,
           "maximum_score": 160,
           "run_scores": [
             10,
@@ -322,6 +331,7 @@
               "question_id": "2A",
               "average_score": 2.0,
               "best_score": 10,
+              "worst_score": 0,
               "maximum_score": 130,
               "run_scores": [
                 10,
@@ -345,6 +355,7 @@
               "question_id": "2B",
               "average_score": 0.0,
               "best_score": 0,
+              "worst_score": 0,
               "maximum_score": 10,
               "run_scores": [
                 0,
@@ -368,6 +379,7 @@
               "question_id": "2C",
               "average_score": 0.0,
               "best_score": 0,
+              "worst_score": 0,
               "maximum_score": 10,
               "run_scores": [
                 0,
@@ -391,6 +403,7 @@
               "question_id": "2D",
               "average_score": 0.0,
               "best_score": 0,
+              "worst_score": 0,
               "maximum_score": 10,
               "run_scores": [
                 0,
@@ -417,6 +430,7 @@
           "section": "Culture and Criticism 3",
           "average_score": 10.0,
           "best_score": 10,
+          "worst_score": 10,
           "maximum_score": 20,
           "run_scores": [
             10,
@@ -439,6 +453,7 @@
               "question_id": "3A",
               "average_score": 10.0,
               "best_score": 10,
+              "worst_score": 10,
               "maximum_score": 10,
               "run_scores": [
                 10,
@@ -462,6 +477,7 @@
               "question_id": "3B",
               "average_score": 0.0,
               "best_score": 0,
+              "worst_score": 0,
               "maximum_score": 10,
               "run_scores": [
                 0,
@@ -488,6 +504,7 @@
           "section": "Geography",
           "average_score": 0.0,
           "best_score": 0,
+          "worst_score": 0,
           "maximum_score": 20,
           "run_scores": [
             0,
@@ -510,6 +527,7 @@
               "question_id": "4A",
               "average_score": 0.0,
               "best_score": 0,
+              "worst_score": 0,
               "maximum_score": 10,
               "run_scores": [
                 0,
@@ -533,6 +551,7 @@
               "question_id": "4B",
               "average_score": 0.0,
               "best_score": 0,
+              "worst_score": 0,
               "maximum_score": 10,
               "run_scores": [
                 0,
@@ -559,6 +578,7 @@
           "section": "Philosophy",
           "average_score": 14.0,
           "best_score": 20,
+          "worst_score": 10,
           "maximum_score": 40,
           "run_scores": [
             10,
@@ -581,6 +601,7 @@
               "question_id": "5A",
               "average_score": 0.0,
               "best_score": 0,
+              "worst_score": 0,
               "maximum_score": 10,
               "run_scores": [
                 0,
@@ -604,6 +625,7 @@
               "question_id": "5B",
               "average_score": 10.0,
               "best_score": 10,
+              "worst_score": 10,
               "maximum_score": 10,
               "run_scores": [
                 10,
@@ -627,6 +649,7 @@
               "question_id": "5C",
               "average_score": 0.0,
               "best_score": 0,
+              "worst_score": 0,
               "maximum_score": 10,
               "run_scores": [
                 0,
@@ -650,6 +673,7 @@
               "question_id": "5D",
               "average_score": 4.0,
               "best_score": 10,
+              "worst_score": 0,
               "maximum_score": 10,
               "run_scores": [
                 0,
