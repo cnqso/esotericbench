@@ -6,6 +6,10 @@ EsotericBench is a presence-of-information evaluation using a secret set of ques
 
 Per-question records are based on the highest average score across five runs, not the best individual answer. Ties share the record.
 
+## Stealth models
+
+Anonymous "stealth" models are listed under their pre-release names (e.g. `stealth/space-bunny-alpha`). Their results should be treated as provisional: when a stealth model's identity is confirmed, its results should be relabeled under the released model. If a stealth endpoint turns out to route questions to an already-listed model rather than serving a distinct one, its results are removed.
+
 ## Hypothesis
 
 This benchmark is made to test a hypothesis around LLM knowledge: that as agentic capabilities progress, the fuzzy boundary of knowledge will *not* grow significantly. We may even expect some knowledge to be compressed away entirely. This should be especially true with faster models, and even more so with distilled models. This benchmark hopes to find some supporting evidence that knowledge per se and agentic capability can vary independently.
