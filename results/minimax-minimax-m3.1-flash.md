@@ -1,6 +1,6 @@
-# EsotericBench — Space Bunny Alpha
+# EsotericBench — MiniMax: MiniMax M3.1 Flash
 
-`20261003T024112299282Z` · `stealth/space-bunny-alpha`
+`20261003T024112299282Z` · `minimax/minimax-m3.1-flash`
 
 **Average:** 8.6/1000 · **Segment best:** 23/1000 · **Segment worst:** 0/1000 · **Runs:** 5/5 · **Time:** 3m 42s
 
